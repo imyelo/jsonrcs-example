@@ -1,0 +1,24 @@
+{
+  "name": "jsonrcs-example",
+  "main": "index.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/imyelo/jsonrcs",
+  "authors": [
+    "yelo <zhihuzeye@gmail.com>"
+  ],
+  "description": "example for json rcs",
+  "keywords": [
+    "jsonrcs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "superagent": "~0.20.0"
+  }
+}
