@@ -4,7 +4,7 @@ requirejs.config({
   shim: {
   },
   paths: {
-    jsonrcs: 'component/imyelo/jsonrcs/0.1.0'
+    jsonrcs: '/jsonrcs/dest/client'
   },
   packages: [
 

@@ -1,4 +1,4 @@
-require(['superagent'], function (superagent) {
+require(['jsonrcs'], function (jsonrcs) {
   $(function () {
     var render = function (dict) {
       var TPL = [
@@ -10,8 +10,12 @@ require(['superagent'], function (superagent) {
       $('dl').html(_.template(TPL)(dict));
     };
 
-    superagent.get('/json/dict.json').accept('json').end(function(res) {
-      render({dict: res.body});
+    jsonrcs.pull('/json/dict.json', function (err, last) {
+      render({dict: last});
     });
+
+    // jsonrcs.pull('/json/dict.json').accept('json').end(function(res) {
+    //   render({dict: res.body});
+    // });
   });
 });
