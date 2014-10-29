@@ -4,7 +4,7 @@ requirejs.config({
   shim: {
   },
   paths: {
-    superagent: 'bower_components/superagent/superagent'
+    jsonrcs: 'component/imyelo/jsonrcs/0.1.0'
   },
   packages: [
 

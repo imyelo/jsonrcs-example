@@ -1,0 +1,3 @@
+[submodule "public/jsonrcs"]
+	path = public/jsonrcs
+	url = git@github.com:imyelo/jsonrcs.git
