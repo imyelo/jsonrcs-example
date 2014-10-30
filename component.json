@@ -1,7 +1,0 @@
-{
-  "name": "jsonrcs-example",
-  "dependencies": {
-    "imyelo/jsonrcs": "^0.1.0"
-  },
-  "scripts": ["client.js"]
-}

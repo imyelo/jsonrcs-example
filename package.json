@@ -3,9 +3,9 @@
   "private": true,
   "dependencies": {
     "connect": "^3.2.0",
+    "jsonrcs": "^0.1.0",
     "opn": "^1.0.0",
     "serve-static": "^1.7.0"
   },
-  "scripts": {
-  }
+  "scripts": {}
 }

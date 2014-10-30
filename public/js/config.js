@@ -4,7 +4,7 @@ requirejs.config({
   shim: {
   },
   paths: {
-    jsonrcs: '/jsonrcs/dest/client'
+    jsonrcs: '/lib/jsonrcs'
   },
   packages: [
 

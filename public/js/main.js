@@ -11,7 +11,7 @@ require(['jsonrcs'], function (jsonrcs) {
     };
 
     jsonrcs.pull('/json/dict.json', function (err, last) {
-      render({dict: last});
+      render({dict: last.data});
     });
 
     // jsonrcs.pull('/json/dict.json').accept('json').end(function(res) {
